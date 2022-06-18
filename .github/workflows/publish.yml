@@ -14,6 +14,7 @@ jobs:
         with:
           username: tshuto345
           password: ${{ secrets.GITHUB_TOKEN }}
+          platforms: linux/amd64,linux/arm64
           registry: docker.pkg.github.com
           repository: tshuto345/publish-packages/game
           tag_with_sha: true
